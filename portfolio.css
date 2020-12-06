@@ -1,0 +1,29 @@
+@media screen and (max-width: 1023px) {
+	.mobile-no-padding {
+		padding: 0 !important;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.mobile-no-margin {
+		margin: 0 !important;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.mobile-delta-margin-top {
+		margin-top: 24px !important;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.mobile-delta-margin-bottom {
+		margin-bottom: 24px !important;
+	}
+}
+
+body {
+  font-family: shackleton-condensed,serif;
+  font-weight: 400;
+  font-style: normal;
+}
