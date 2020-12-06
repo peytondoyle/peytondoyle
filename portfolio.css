@@ -23,7 +23,21 @@
 }
 
 body {
+  background-color: #b5838d;
   font-family: shackleton-condensed,serif;
+  color: #ffcdb2;
   font-weight: 400;
   font-style: normal;
+}
+
+h1.big-name {
+  font-size: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1023px) { h1.big-name { font-size: 90px; }}
+
+.big-name{
+  text-align: center;
 }
