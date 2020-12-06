@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: #b5838d;
+  background-color: #3d405b;
   font-family: shackleton-condensed,serif;
   color: #ffcdb2;
   font-weight: 400;
@@ -35,11 +35,12 @@ h1.big-name {
   padding-top: 30px;
   margin: 0px;
   line-height: 90%;
+  /* color: #B3ADBF; */
 }
 
 @media screen and (max-width: 1023px) { h1.big-name { font-size: 150px; }}
 
-@media screen and (max-width: 723px) { h1.big-name { font-size: 80px; }}
+@media screen and (max-width: 726px) { h1.big-name { font-size: 80px; }}
 
 .big-name{
   text-align: center;
