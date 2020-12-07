@@ -99,9 +99,9 @@ img.nav-links:hover {
 }
 
 @media screen and (max-width: 1023px) { .placeholder {
-  font-size: 10px;
+  font-size: 20px;
 }}
 
 @media screen and (max-width: 726px) { .placeholder {
-  font-size: 10px;
+  font-size: 18px;
 }}
