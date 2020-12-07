@@ -24,10 +24,8 @@
 
 body {
   background-color: #3d405b;
-  font-family: shackleton-condensed,serif;
   color: #ffcdb2;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -36,6 +34,9 @@ a {
 }
 
 h1.big-name {
+  font-family: shackleton-condensed,serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -88,4 +89,19 @@ img.nav-links:hover {
 
 @media screen and (max-width: 726px) { img.nav-links {
   max-width: 40px;
+}}
+
+.placeholder {
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1023px) { .placeholder {
+  font-size: 10px;
+}}
+
+@media screen and (max-width: 726px) { .placeholder {
+  font-size: 8px;
 }}
