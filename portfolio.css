@@ -46,7 +46,7 @@ h1.big-name {
 }
 
 @media screen and (max-width: 1023px) { h1.big-name {
-  font-size: 140px;
+  font-size: 130px;
   padding-bottom: 20px;
 }}
 
