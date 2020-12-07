@@ -35,12 +35,6 @@ a {
   text-decoration: none;
 }
 
-a.nav-links {
-  color: inherit;
-  text-decoration: none;
-  font-size: 20px;
-}
-
 h1.big-name {
   font-size: 200px;
   padding-top: 30px;
@@ -65,10 +59,32 @@ h1.big-name {
   text-align: center;
 }
 
+a.nav-links {
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1023px) { a.nav-links {
   font-size: 14px;
 }}
 
 @media screen and (max-width: 726px) { a.nav-links {
   font-size: 8px;
+}}
+
+img.nav-links {
+  max-width: 70px;
+}
+
+img.nav-links:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) { img.nav-links {
+  max-width: 50px;
+}}
+
+@media screen and (max-width: 726px) { img.nav-links {
+  max-width: 30px;
 }}
