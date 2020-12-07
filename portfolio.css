@@ -42,6 +42,7 @@ h1.big-name {
   margin: 0px;
   line-height: 90%;
   text-align: center;
+  white-space: nowrap;
   /* color: #B3ADBF; */
 }
 
@@ -74,7 +75,7 @@ a.nav-links {
 }}
 
 img.nav-links {
-  max-width: 70px;
+  max-width: 80px;
 }
 
 img.nav-links:hover {
@@ -82,9 +83,9 @@ img.nav-links:hover {
 }
 
 @media screen and (max-width: 1023px) { img.nav-links {
-  max-width: 50px;
+  max-width: 60px;
 }}
 
 @media screen and (max-width: 726px) { img.nav-links {
-  max-width: 30px;
+  max-width: 40px;
 }}
